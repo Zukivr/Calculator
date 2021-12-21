@@ -43,12 +43,12 @@ namespace ConsoleApp1
 
 				menu = Convert.ToInt32(Console.ReadLine());
 
-
+				Console.Clear();
 
 				switch (menu)
 				{
 					case 1:
-						Console.Clear();
+						
 						Console.WriteLine("Choose two numbers to add up.");
 						val1 = float.Parse(Console.ReadLine());
 						val2 = float.Parse(Console.ReadLine());
@@ -58,7 +58,7 @@ namespace ConsoleApp1
 
 
 					case 2:
-						Console.Clear();
+						
 						Console.WriteLine("Choose two numbers to subtract.");
 						val1 = float.Parse(Console.ReadLine());
 						val2 = float.Parse(Console.ReadLine());
@@ -68,7 +68,7 @@ namespace ConsoleApp1
 
 
 					case 3:
-						Console.Clear();
+					
 						Console.WriteLine("Choose two numbers to multiply.");
 						val1 = float.Parse(Console.ReadLine());
 						val2 = float.Parse(Console.ReadLine());
@@ -78,7 +78,7 @@ namespace ConsoleApp1
 
 
 					case 4:
-						Console.Clear();
+						
 						Console.WriteLine("Choose two numbers divide.");
 						val1 = float.Parse(Console.ReadLine());
 						val2 = float.Parse(Console.ReadLine());
@@ -88,7 +88,7 @@ namespace ConsoleApp1
 
 
 					default:
-						Console.Clear();
+						
 						Console.WriteLine("An error occured! Please try again.");
 						break;
 
