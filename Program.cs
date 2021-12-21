@@ -40,7 +40,7 @@ namespace ConsoleApp1
 							val1 = parsed;
 							bool success2 = float.TryParse(Console.ReadLine(), out parsed);
 							val2 = parsed;
-							if (success && success2 == true)
+							if (success && success2)
 							{
 								result = val1 + val2;
 								Console.WriteLine("The result is: " + result);
@@ -57,7 +57,7 @@ namespace ConsoleApp1
 							val1 = parsed;
 							success2 = float.TryParse(Console.ReadLine(), out parsed);
 							val2 = parsed;
-							if (success && success2 == true)
+							if (success && success2)
 							{
 								result = val1 - val2;
 								Console.WriteLine("The result is: " + result);
@@ -74,7 +74,7 @@ namespace ConsoleApp1
 							val1 = parsed;
 							success2 = float.TryParse(Console.ReadLine(), out parsed);
 							val2 = parsed;
-							if (success && success2 == true)
+							if (success && success2)
 							{
 								result = val1 * val2;
 								Console.WriteLine("The result is: " + result);
@@ -91,7 +91,7 @@ namespace ConsoleApp1
 							val1 = parsed;
 							success2 = float.TryParse(Console.ReadLine(), out parsed);
 							val2 = parsed;
-							if (success && success2 == true)
+							if (success && success2)
 							{
 								result = val1 / val2;
 								Console.WriteLine("The result is: " + result);
