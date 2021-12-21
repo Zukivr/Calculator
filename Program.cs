@@ -29,7 +29,7 @@ namespace ConsoleApp1
 				Console.WriteLine("4: Division");
 				bool menuCheck = int.TryParse(Console.ReadLine(), out menu);
 				if (menuCheck == true)
-				{ 
+				{
 					Console.Clear();
 
 					switch (menu)
@@ -107,14 +107,14 @@ namespace ConsoleApp1
 							break;
 					}
 				}
-				if (menuCheck == false)
+				else
 				{
 					Console.WriteLine("Your input was wrong.");
 				}
-				Console.WriteLine("Do you want to try again? (yes/no)");
+				Console.WriteLine("Do you want to try again? (type: yes / no)");
 				tryAgain = Console.ReadLine();
 				Console.Clear();
-			} while (tryAgain == "yes") ;	
+			} while (tryAgain == "yes");
 		}
 	}
 }
